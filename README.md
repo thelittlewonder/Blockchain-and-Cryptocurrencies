@@ -86,3 +86,8 @@ ASIC implementations derive their power from having many physically parallel and
 
 ## Turing Complete
 Turing-completeness refers to any device or system which in theory can calculate everything assuming enough memory is available. And since software is just programmed, and programming is just chaining mathematic statements, everything can be implemented in a turing complete environment.
+
+## Hashing Algorithm
+- Pre-Image Resistance : Given h, we can't produce a x such that H(x)=h.
+- Second Pre-Image Resistance: For a given message x1, it is hard to find a second message x2≠x1 with H(x1)=H(x2)
+- Collision Resistance: It is hard to find a pair of messages x1≠x2 with H(x1)=H(x2).
