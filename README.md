@@ -97,3 +97,9 @@ In cryptography, a zero-knowledge proof is a method by which one party can prove
 
 If proving the statement requires knowledge of some secret information on the part of the prover, the definition implies that the verifier will not be able to prove the statement in turn to anyone else, since the verifier does not possess the secret information.
 [Example](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
+
+## ECDSA
+Elliptic Curve Digital Signature Algorithm or ECDSA is a cryptographic algorithm used by Bitcoin to ensure that funds can only be spent by their rightful owners.
+
+## ECDLP
+Elliptic Curve Discrete Logarathmic Problem: g^r%p=x. Given x,g and p find r.
