@@ -118,3 +118,11 @@ Permissioned Blockhain Network puts restriction to the entry of participant and 
 - A regulatory authority can be set up which can issue licenses for participation
 - A consortium can be formed to make the decision of entry of future participants
 - Or any other way that the network founders may think fit.
+
+
+#### Advantages
+- Increased privacy
+- Enviornment-friendly as less computational power is required to achieve the consensus.(as in the case of Public Network)
+
+#### Disadvantages
+- Less secured as compared to public network
