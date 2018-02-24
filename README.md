@@ -103,3 +103,18 @@ Elliptic Curve Digital Signature Algorithm or ECDSA is a cryptographic algorithm
 
 ## ECDLP
 Elliptic Curve Discrete Logarathmic Problem: g^r%p=x. Given x,g and p find r.
+
+## Gas
+When you send tokens, interact with a contract, send ETH, or do anything else on the blockchain, you must pay for that computation. That payment is calculated in Gas and gas is paid in ETH.
+
+You are paying for the computation, regardless of whether your transaction succeeds or fails. Even if it fails, the miners must validate and execute your transaction (compute) and therefore you must pay for that computation just like you would pay for a successful transaction.
+
+## Private Blockchain
+A Private Blockchain  Network requires an invitation to participate in the  network. The invitation must be validated either by network starter or by the rules/conditions placed by the network starter.
+
+Permissioned Blockhain Network puts restriction to the entry of participant and allows only the kind of participant that is required in the network. Any entity willing to participate must be invited or obtain a permission to join the network. Once the entity has joined the network, it can start the activity of maintaining the Private Blockchain Network in a decentralized manner.
+
+-Existing participants can decide the entry of new participants
+-A regulatory authority can be set up which can issue licenses for participation
+-A consortium can be formed to make the decision of entry of future participants
+-Or any other way that the network founders may think fit.
