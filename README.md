@@ -71,3 +71,12 @@ Consistent hashing is a special kind of hashing such that when a hash table is r
 
 ### Rendezvous Hashing:
 Rendezvous hashing (aka Highest Random Weight hashing) is an algorithm to achieve distributed agreement on a set of k options out of a possible set of n options. It's most typically used in distributed systems to find out the location of some resource.
+
+## ASIC Resistance
+ASIC stands for Application-specific integrated circuit. An ASIC is another way of running a program or calculation or what have you (in our case mining) using a PCB/Hardware instead of Software running on a general purpose computer. GPUs are technically ASICs, their application being graphics processing and output.
+
+ASIC resistance means that there will be no significant speedup by implementing the algorithm in an ASIC, as compared to a CPU based implementation.
+
+This is usually achieved by requiring a lot of memory, which when implementing this on an ASIC, translates to needing lots of physical area on the chip.
+
+ASIC implementations derive their power from having many physically parallel and pipelined threads on one chip, each requiring a certain piece of chip real estate. Now if your algorithm requires lots of real estate even for one step of the pipeline, there will not but much room to actually parallelize or pipeline the algorithm. Thereby you will lose the parallelizing advantage of an ASIC implementation.
