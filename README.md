@@ -3,6 +3,9 @@
 ## Distributed Database: 
 A distributed database is a database in which **storage devices are not all attached to a common processor**. It may be stored in multiple computers, located in the same physical location; or may be dispersed over a network of interconnected computers.
 
+- Homogenous: Same Hardware and Software
+- Heterogenous: Different Hardware
+
 Two processes ensure that the distributed databases remain up-to-date and current: replication and duplication.
 
 - Replication involves using specialised software that **looks for changes in the distributive database**. Once the changes have been identified, the replication process makes all the databases look the same. The replication process can be complex and time-consuming depending on the size and number of the distributed databases. This process can also require a lot of time and computer resources.
@@ -16,3 +19,47 @@ A proof-of-work (PoW) system is an economic measure to **deter denial of service
 **51% attack** - Results in double spending. I can make a private chain since I have highest hashing power and at the same time spend from the public chain. Then later I will announce private chain in public and network will accept it since it is the longest. [Source](https://www.youtube.com/watch?v=UxyGt58EPa4) 
 
 ## Byzantine Problem
+Imagine that the grand Eastern Roman empire aka Byzantine empire has decided to capture a city. Alas, there is fierce resistance from within the city. The Byzantine army has completely encircled the city. The army has many divisions and each division has a general. The generals communicate between each as well as between all lieutenants within their division only through messengers.
+
+All the generals or commanders have to agree upon one of the two plans of action. Exact time to attack all at once or if faced by fierce resistance then the time to retreat all at once. The army cannot hold on forever. If the attack or retreat is without full strength then it means only one thing — Unacceptable brutal defeat.
+
+If all generals and/or messengers were trustworthy then it is a very simple solution. However, some of the messengers and even a few generals/commanders are traitors. They are spies or even enemy soldiers. There is a very high chance that they will not follow orders or pass on the incorrect message. The level of trust in the army is very less.
+
+![](https://cdn-images-1.medium.com/max/1600/1*1vFslrPsES7z62QuaeTP4g.jpeg)
+
+### Solution
+**Number of generals should be greater than three times the number of traitors**
+#### - Majority Consideration
+#### - Signature(Primary and Public Key):
+The difficulty of BGP is in the ability of a traitor lieutenant to lie about the commander's order. If we can restrict this ability by making the following assumptions, BGP is solvable with any number of traitors as long as their maximum number is known.
+
+In addition to the 3 assumptions made in the solution with oral messages, we add the following assumption.
+- A loyal general's signature cannot be forged, any alteration can be detected. -> can drop a message, but can't change it
+- Any one can verify the authenticity of a signature. -> no one can fool a general
+
+The solution:
+
+- the commander sends a signed order to lieutenants
+- if a lieutenant receives an order from some one (either from commander directly, or from other lieutenants), he verifies it and then puts it in a set V if it's not already there. Relay the order if there are less than m distinct signatures on the order.
+- Everyone halts at round m+2, and use choice(V) as the desired action
+#### - Broadcast and CRC
+
+## Two Generals Problem
+Two armies, each led by a different general, are preparing to attack a fortified city. The armies are encamped near the city, each in its own valley. A third valley separates the two hills, and the only way for the two generals to communicate is by sending messengers through the valley. Unfortunately, the valley is occupied by the city's defenders and there's a chance that any given messenger sent through the valley will be captured.
+
+The problem is to come up with algorithms that the generals can use, including sending messages and processing received messages, that can allow them to correctly conclude:
+**Yes, we will both attack at the agreed-upon time.**
+
+##  Hadoop Distributed File System
+Hadoop File System was developed using distributed file system design. It is run on commodity hardware. Unlike other distributed systems, HDFS is **highly faulttolerant and designed using low-cost hardware**.
+
+To store such huge data, the files are stored across **multiple machines**. These files are **stored in redundant fashion to rescue the system from possible data losses in case of failure.**
+[Video](https://www.youtube.com/watch?v=1_ly9dZnmWc)
+
+Problems
+- Updation of data.
+- Regular ping machines to check if alive.
+
+## Distributed Hash Table
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DHT_en.svg/1000px-DHT_en.svg.png)
+A distributed hash table (DHT) is a class of a decentralized distributed system that provides a lookup service similar to a hash table: (key, value) pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key.
