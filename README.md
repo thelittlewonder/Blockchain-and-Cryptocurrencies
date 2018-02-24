@@ -50,6 +50,9 @@ Two armies, each led by a different general, are preparing to attack a fortified
 The problem is to come up with algorithms that the generals can use, including sending messages and processing received messages, that can allow them to correctly conclude:
 **Yes, we will both attack at the agreed-upon time.**
 
+## Memory Hard
+It refers to a situation in which the time to complete a given computational problem is decided primarily by the amount of memory required to hold data. The application of memory hard functions could prove to be valuable in preventing spam, which has become a problem of epidemic proportions on the Internet.
+
 ##  Hadoop Distributed File System
 Hadoop File System was developed using distributed file system design. It is run on commodity hardware. Unlike other distributed systems, HDFS is **highly faulttolerant and designed using low-cost hardware**.
 
