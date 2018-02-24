@@ -91,3 +91,9 @@ Turing-completeness refers to any device or system which in theory can calculate
 - Pre-Image Resistance : Given h, we can't produce a x such that H(x)=h.
 - Second Pre-Image Resistance: For a given message x1, it is hard to find a second message x2≠x1 with H(x1)=H(x2)
 - Collision Resistance: It is hard to find a pair of messages x1≠x2 with H(x1)=H(x2).
+
+## Zero-Knowledge Proof
+In cryptography, a zero-knowledge proof is a method by which one party can prove to another party that it knows a value x, without conveying any information apart from the fact that it knows the value x. 
+
+If proving the statement requires knowledge of some secret information on the part of the prover, the definition implies that the verifier will not be able to prove the statement in turn to anyone else, since the verifier does not possess the secret information.
+[Example](https://blog.cryptographyengineering.com/2014/11/27/zero-knowledge-proofs-illustrated-primer/)
