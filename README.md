@@ -126,3 +126,17 @@ Permissioned Blockhain Network puts restriction to the entry of participant and 
 
 #### Disadvantages
 - Less secured as compared to public network
+
+## Public Blockchain Network
+A public Blockchain network or permissionless Blockchain network is completely open-ended and anyone willing to participate in this kind of network can participate without any permission. This is the major and only difference between public and private Blockchain network
+
+Anyone can participate in the permissionless network, execute the consensus protocol and maintain the shared open public ledger.
+
+Public Blockchain network has a system of providing incentives to the participants, which encourages entities to participate.More the number of participants, more is the security and accuracy of the transaction.
+
+### Advanatges
+- More secured as compared to Private Network
+
+### Disadvanatges
+- Low privacy
+- Huge computational power and energy is required, less eco-friendly.
