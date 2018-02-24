@@ -114,9 +114,7 @@ A Private Blockchain  Network requires an invitation to participate in the  netw
 
 Permissioned Blockhain Network puts restriction to the entry of participant and allows only the kind of participant that is required in the network. Any entity willing to participate must be invited or obtain a permission to join the network. Once the entity has joined the network, it can start the activity of maintaining the Private Blockchain Network in a decentralized manner.
 
--Existing participants can decide the entry of new participants
--A regulatory authority can be set up which can issue licenses for participation
-
--A consortium can be formed to make the decision of entry of future participants
-
--Or any other way that the network founders may think fit.
+- Existing participants can decide the entry of new participants
+- A regulatory authority can be set up which can issue licenses for participation
+- A consortium can be formed to make the decision of entry of future participants
+- Or any other way that the network founders may think fit.
