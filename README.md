@@ -116,5 +116,7 @@ Permissioned Blockhain Network puts restriction to the entry of participant and 
 
 -Existing participants can decide the entry of new participants
 -A regulatory authority can be set up which can issue licenses for participation
+
 -A consortium can be formed to make the decision of entry of future participants
+
 -Or any other way that the network founders may think fit.
