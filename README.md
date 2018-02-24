@@ -63,3 +63,11 @@ Problems
 ## Distributed Hash Table
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DHT_en.svg/1000px-DHT_en.svg.png)
 A distributed hash table (DHT) is a class of a decentralized distributed system that provides a lookup service similar to a hash table: (key, value) pairs are stored in a DHT, and any participating node can efficiently retrieve the value associated with a given key.
+
+**Problem: Recalculate hash after updation of node**
+
+### Consistent Hashing:
+Consistent hashing is a special kind of hashing such that when a hash table is resized, only K/n keys need to be remapped on average, where K is the number of keys, and n is the number of slots. In contrast, in most traditional hash tables, a change in the number of array slots causes nearly all keys to be remapped because the mapping between the keys and the slots is defined by a modular operation.
+
+### Rendezvous Hashing:
+Rendezvous hashing (aka Highest Random Weight hashing) is an algorithm to achieve distributed agreement on a set of k options out of a possible set of n options. It's most typically used in distributed systems to find out the location of some resource.
