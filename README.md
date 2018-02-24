@@ -80,3 +80,6 @@ ASIC resistance means that there will be no significant speedup by implementing 
 This is usually achieved by requiring a lot of memory, which when implementing this on an ASIC, translates to needing lots of physical area on the chip.
 
 ASIC implementations derive their power from having many physically parallel and pipelined threads on one chip, each requiring a certain piece of chip real estate. Now if your algorithm requires lots of real estate even for one step of the pipeline, there will not but much room to actually parallelize or pipeline the algorithm. Thereby you will lose the parallelizing advantage of an ASIC implementation.
+
+## Turing Complete
+Turing-completeness refers to any device or system which in theory can calculate everything assuming enough memory is available. And since software is just programmed, and programming is just chaining mathematic statements, everything can be implemented in a turing complete environment.
