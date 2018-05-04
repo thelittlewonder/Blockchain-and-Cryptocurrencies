@@ -162,3 +162,6 @@ Public Blockchain network has a system of providing incentives to the participan
 - A Sybil attack is an attack where a **single adversary is controlling multiple nodes on a network.** 
 - It is **unknown to the network that the nodes are controlled by the same** adversarial entity. 
 - Sybil attacks are **avoided in Bitcoin** through the **proof-of-work** mechanism.
+
+## Hash-cash 
+It is a proof-of-work algorithm that requires a selectable amount of work to compute, but the proof can be verified efficiently.
