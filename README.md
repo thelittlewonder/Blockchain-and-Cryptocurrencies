@@ -187,10 +187,5 @@ It is a proof-of-work algorithm that requires a selectable amount of work to com
 - The Ghost protocol in Ethereum is **(Greedy Heaviest Observed Subtree)**.
 - A way of **combating the way that fast block time blockchains suffer from a high number of stale blocks** - i.e. blocks that were propagated to the network and verified by some nodes as being correct but eventually being cast off as a longer chain achieved dominance, or Forking. 
 - The protocol also **combats the issue of centralisation bias** – the larger the pool the less time the more often they are going to get a head start on other miners by producing the block themselves and immediately start the race for the next block.
-- GHOST **includes stale blocks** – or Uncles as Ethereum calls them – these are included **in the calculation of which chain is longest or has the highest cumulative difficulty**. Centralisation is solved by giving **block rewards to stales of 87.5%**
+- GHOST **includes stale blocks** – or Uncles as Ethereum calls them – these are included **in the calculation of which chain has the highest cumulative difficulty**. Centralisation is solved by giving **block rewards to stales of 87.5%**
 - The **nephew** (child of the Uncle block) also **receives a reward of 12.5%** of the block reward.
-
-## Uncle Block
-Uncles are **stale blocks**, ie with parent that are ancestors (max 6 blocks back) of the including block. **Valid uncles are rewarded in order to neutralise the effect of network lag** on the dispersion of mining rewards, thereby increasing security. Uncles included in a block formed by the successful PoW miner **receive 7/8 of the static block reward** = 2.625 ether A maximum of 2 uncles allowed per block.
-
-
