@@ -176,3 +176,9 @@ It is a proof-of-work algorithm that requires a selectable amount of work to com
 - Hard forks is a permanent divergence in the the block chain, commonly occurs when non-upgraded nodes can’t validate blocks created by upgraded nodes that follow newer consensus rules.
 
 - Soft forks is a temporary divergence in the block chain caused by non-upgraded nodes not following new consensus rules
+
+## The DAO
+- Smart Contract: Immutable, Perpetual on a Runtime Environment. Will do whatever it is bound to, no need of interference from other party.
+- DAO : Decentralised Autonomous Organisation. Decentralised Kickstarter.
+- Receive DAO Tokens for sending ether which could be used for voting on the ideas.
+- As a result of the dispute, the network split in two. Ethereum (the subject of this article) continued on the forked blockchain, while Ethereum Classic continued on the original blockchain.
