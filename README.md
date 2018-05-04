@@ -153,3 +153,7 @@ Public Blockchain network has a system of providing incentives to the participan
 - Validators loose their stake if they approve fraud transaction. If accepted, you gain.
 - 51% attack - less likely since 51% of total currency is very large money.
 
+## Proof of Burn
+- The way proof of burn works is that **miners send coins to an unspendable address** (also known as an eater address), effectively burning them.
+- The idea behind proof of burn is that by **burning a cryptocurrency, a user is demonstrating a willingness to undergo a short-term loss for a more long-term investment.**
+- Users are rewarded over time through the proof of burn reward mechanism when mining, earning a lifetime privilege to mine on the system.
