@@ -140,3 +140,9 @@ Public Blockchain network has a system of providing incentives to the participan
 ### Disadvanatges
 - Low privacy
 - Huge computational power and energy is required, less eco-friendly.
+
+## Nakamoto Consensus
+- Consensus Algorithm of Bitcoin.
+- The consensus protocol says that the **first announced valid block containing solution to a computational puzzle is considered correct**; and all other miners are to start searching for a followup block after that moment. 
+- This may occasionally lead to temporary forks due to several simultaneously found solutions. **The longest fork in that case is considered valid**. In case of equal-length forks miners can choose either one. Due to probabilistic nature of computational puzzle, one fork will eventually get longer than the other.
+
