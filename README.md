@@ -157,3 +157,8 @@ Public Blockchain network has a system of providing incentives to the participan
 - The way proof of burn works is that **miners send coins to an unspendable address** (also known as an eater address), effectively burning them.
 - The idea behind proof of burn is that by **burning a cryptocurrency, a user is demonstrating a willingness to undergo a short-term loss for a more long-term investment.**
 - Users are rewarded over time through the proof of burn reward mechanism when mining, earning a lifetime privilege to mine on the system.
+
+## Sybil Attack
+- A Sybil attack is an attack where a **single adversary is controlling multiple nodes on a network.** 
+- It is **unknown to the network that the nodes are controlled by the same** adversarial entity. 
+- Sybil attacks are **avoided in Bitcoin** through the **proof-of-work** mechanism.
