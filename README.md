@@ -189,3 +189,13 @@ It is a proof-of-work algorithm that requires a selectable amount of work to com
 - The protocol also **combats the issue of centralisation bias** – the larger the pool the less time the more often they are going to get a head start on other miners by producing the block themselves and immediately start the race for the next block.
 - GHOST **includes stale blocks** – or Uncles as Ethereum calls them – these are included **in the calculation of which chain has the highest cumulative difficulty**. Centralisation is solved by giving **block rewards to stales of 87.5%**
 - The **nephew** (child of the Uncle block) also **receives a reward of 12.5%** of the block reward.
+
+## Sidechain
+- Sidechains are emerging mechanisms that **allow tokens and other digital assets from one blockchain to be securely used in a separate blockchain** and then be moved back to the original blockchain if needed.
+- A sidechain is a **separate blockchain that is attached to its parent blockchain using a two-way peg**.
+- The **two-way peg enables interchangeability of assets at a predetermined rate between the parent blockchain and the sidechain**.
+
+## Namecoin
+- based on the code of bitcoin and uses the same proof-of-work algorithm.
+- Namecoin can **store data within its own blockchain transaction database**.
+- Namecoin's flagship use case is the **censorship-resistant top level domain .bit**, which is functionally similar to .com or .net domains but is **independent of ICANN, the main governing body for domain names**.
