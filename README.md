@@ -171,3 +171,8 @@ It is a proof-of-work algorithm that requires a selectable amount of work to com
 - The distribution is unique: records are not communicated to various nodes by a central authority, but are instead **independently constructed and held by every node.**
 - That is, **every single node on the network processes every transaction, coming to its own conclusions and then voting on those conclusions** to make certain the majority agree with the conclusions.
 - Once there is this **consensus, the distributed ledger has been updated,** and all nodes maintain their own identical copy of the ledger. This architecture allows for a new dexterity as a system of record that goes beyond being a simple database.
+
+## Soft and Hard Fork
+- Hard forks is a permanent divergence in the the block chain, commonly occurs when non-upgraded nodes can’t validate blocks created by upgraded nodes that follow newer consensus rules.
+
+- Soft forks is a temporary divergence in the block chain caused by non-upgraded nodes not following new consensus rules
