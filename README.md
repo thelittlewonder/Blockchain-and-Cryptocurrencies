@@ -197,5 +197,5 @@ It is a proof-of-work algorithm that requires a selectable amount of work to com
 
 ## Namecoin
 - based on the code of bitcoin and uses the same proof-of-work algorithm.
-- Namecoin can **store data within its own blockchain transaction database**.
+- Namecoin can **store data within its own blockchain transaction database** and acts as **decentralised domain name system**
 - Namecoin's flagship use case is the **censorship-resistant top level domain .bit**, which is functionally similar to .com or .net domains but is **independent of ICANN, the main governing body for domain names**.
