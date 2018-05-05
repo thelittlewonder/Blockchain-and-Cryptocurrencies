@@ -221,3 +221,10 @@ To **test for membership**, you simply **hash the string** with the same hash fu
 - Requirements : First, did the lottery **winner actually choose a random** wait time? Second, did the lottery **winner actually finish waiting** the specified amount of time?
 - Depends on **Intel Software Guard Extensions (SGX)** which allows **applications to run trusted code in a protected environment.**
 - For PoET, the trusted code is what ensures that these **two requirements are satisfied** — keeping the lottery fair.
+
+## Ethash
+- Ethash is the planned PoW algorithm for Ethereum 1.0.
+- Memory Hard : 
+	- **Every mixing** operation requires a **128 byte read from the DAG** .  **Hashing a single nonce requires 64 mixes**, resulting in (128 Bytes x 64) = 8 KB of memory read
+	- The **reads are random access** , so **putting a small chunk of the DAG in an L1 or L2 cache isn’t going to help** much, since the next DAG fetch will very likely yield a cache miss.
+![a](https://vijaypradeep.com/static/media/uploads/ethash_algorithm.png)
