@@ -242,3 +242,10 @@ To **test for membership**, you simply **hash the string** with the same hash fu
 
 ## Light Node
 - Instead of downloading and storing the full chain and executing all of the transactions, **light nodes download only the chain of headers, from the genesis block to the current head, without executing any transactions or retrieving any associated state**.
+
+
+## Hashgraph
+- Gossip Protocol: **Every node** in Hashgraph can **spread signed information (called events) on newly-created transactions and transactions received from others**, to its **randomly chosen neighbors.** These **neighbors** will **aggregate received events** with information received from other nodes **into a new event**, and then **send it on to other randomly chosen neighbors.**
+- In the ideal case, all the nodes have the same view of all transactions and their witnesses. Further, by **performing virtual voting**, each node can **determine if a transaction is valid based on whether it has over two-thirds of nodes in the network as witnesses**
+- Fast: 250,000+ Transactions Per Second. Runs Privately
+- Fair: Mathematically-Proven Fairness (via Consensus Time Stamping). This means that if **one transaction reaches two-thirds** of the network ahead of other transactions, it is **considered to be the first**. Runs in byzantine setting
