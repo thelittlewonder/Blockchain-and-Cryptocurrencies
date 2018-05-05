@@ -228,3 +228,10 @@ To **test for membership**, you simply **hash the string** with the same hash fu
 	- **Every mixing** operation requires a **128 byte read from the DAG** .  **Hashing a single nonce requires 64 mixes**, resulting in (128 Bytes x 64) = 8 KB of memory read
 	- The **reads are random access** , so **putting a small chunk of the DAG in an L1 or L2 cache isn’t going to help** much, since the next DAG fetch will very likely yield a cache miss.
 ![a](https://vijaypradeep.com/static/media/uploads/ethash_algorithm.png)
+
+## Merkel Tree
+![merkletree](https://cdn-images-1.medium.com/max/1600/1*TANA9WXlfDz3FNoNfrSGVw.png)
+
+## Simple Payment Verification
+- A method for **verifying if particular transactions are included** in a block **without downloading the entire block.**
+-  A user only needs to keep a **copy of the block headers of the longest proof-of-work chain** and **obtain the Merkle branch linking the transaction to the block it's timestamped in.**
