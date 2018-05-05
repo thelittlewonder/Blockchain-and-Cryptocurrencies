@@ -213,3 +213,11 @@ To **test for membership**, you simply **hash the string** with the same hash fu
 
 ### Other Points
 - The hash functions used in a Bloom filter should be **independent** and **uniformly distributed**. They should also be as **fast** as possible (cryptographic hashes such as **sha1**, though widely used therefore are **not very good choices**).
+
+## Proof of Elapsed Time
+- Used by Sawtooth Hyperledger
+- **Each participant** in the blockchain network **waits a random amount of time.**
+- The **first** participant to **finish waiting** gets to be **leader for the new block.**
+- Requirements : First, did the lottery **winner actually choose a random** wait time? Second, did the lottery **winner actually finish waiting** the specified amount of time?
+- Depends on **Intel Software Guard Extensions (SGX)** which allows **applications to run trusted code in a protected environment.**
+- For PoET, the trusted code is what ensures that these **two requirements are satisfied** — keeping the lottery fair.
