@@ -199,3 +199,17 @@ It is a proof-of-work algorithm that requires a selectable amount of work to com
 - based on the code of bitcoin and uses the same proof-of-work algorithm.
 - Namecoin can **store data within its own blockchain transaction database** and acts as **decentralised domain name system**
 - Namecoin's flagship use case is the **censorship-resistant top level domain .bit**, which is functionally similar to .com or .net domains but is **independent of ICANN, the main governing body for domain names**.
+
+
+## Bloom Filter
+- A Bloom filter is a **data structure** designed to tell you, **rapidly and memory-efficiently**, whether **an element is present in a set**.
+-  Bloom filter is a **probabilistic data structure:** it tells us that the element **either definitely is not in the set** or **may be in the set.**
+
+### How it works
+Each **empty cell in that table represents a bit**, and the **number below it its index.** To **add an element** to the Bloom filter, we simply **hash it a few times** and **set the bits in the bit vector** at the index of those hashes to 1.
+
+### Testing Membership
+To **test for membership**, you simply **hash the string** with the same hash functions, then **see if those values are set in the bit vector.** If they aren't, you know that the element isn't in the set. If they are, you only know that it might be, because another element or some combination of other elements could have set the same bits. 
+
+### Other Points
+- The hash functions used in a Bloom filter should be **independent** and **uniformly distributed**. They should also be as **fast** as possible (cryptographic hashes such as **sha1**, though widely used therefore are **not very good choices**).
