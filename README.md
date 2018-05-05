@@ -235,3 +235,10 @@ To **test for membership**, you simply **hash the string** with the same hash fu
 ## Simple Payment Verification
 - A method for **verifying if particular transactions are included** in a block **without downloading the entire block.**
 -  A user only needs to keep a **copy of the block headers of the longest proof-of-work chain** and **obtain the Merkle branch linking the transaction to the block it's timestamped in.**
+
+## Full Node
+- A full archive node synchronizes the blockchain by **downloading the full chain, from the genesis block to the current head block, executing all of the transactions contained within**. 
+- Typically, **miners store the full archive node**, because they are required to do so for the mining process.
+
+## Light Node
+- Instead of downloading and storing the full chain and executing all of the transactions, **light nodes download only the chain of headers, from the genesis block to the current head, without executing any transactions or retrieving any associated state**.
