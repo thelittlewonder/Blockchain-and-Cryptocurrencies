@@ -249,3 +249,10 @@ To **test for membership**, you simply **hash the string** with the same hash fu
 - In the ideal case, all the nodes have the same view of all transactions and their witnesses. Further, by **performing virtual voting**, each node can **determine if a transaction is valid based on whether it has over two-thirds of nodes in the network as witnesses**
 - Fast: 250,000+ Transactions Per Second. Runs Privately
 - Fair: Mathematically-Proven Fairness (via Consensus Time Stamping). This means that if **one transaction reaches two-thirds** of the network ahead of other transactions, it is **considered to be the first**. Runs in byzantine setting
+
+## IOTA
+- Uses DAG instead of Blockchain
+- In IOTA there is **no concept of miners verifying network transactions** like in Bitcoin or most other blockchains. 
+- Instead, for **each transaction that occurs in IOTA, the transaction creator is required to approve two previous transactions** on the network by doing some computational work. Unconfirmed transactions are tips of the tangle.
+- **Becomes faster with more transactions**. **Lesser Size** compared to BTC. **No fees**.
+- IOTA’s distributed ledger, the Tangle, is based on a data structure referred to as a Directed Acyclic Graph (DAG)
